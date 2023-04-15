@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+#banner {
+    height: 100vh;
+    background-image: url(../res/img/hotel.jpg);
+    background-size: cover  ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-ttl-comtainer {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main-ttl-sm { 
+    color: white;
+    font-size: 30px;
+}
+.main-ttl-lg {
+    color: white;
+    font-size: 34px;
+}
+.order-btn {
+    height: 40px;
+    width: 140px;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    border: #e4252f 2px solid ;
+}
+
+.order-btn:hover{
+    background-color: #e3232d;
+}
+.order-btn:active {
+    background-color: transparent;
+}

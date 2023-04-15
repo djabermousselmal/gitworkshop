@@ -1,0 +1,30 @@
+/* h1{
+    background-color: coral;
+    color: white;
+}
+
+#first{
+background-color:steelblue ;
+color: white;
+}
+#second{
+    background-color: brown;
+}
+.black{
+    color: black;
+} */
+.box p {
+    border: coral 2px dotted;
+}
+
+.box > p {
+    color: rgba(255, 0, 0, 0.726);
+}
+
+.box + p{
+    background-color: brown;
+}
+
+.box ~ p {
+    color: blue;
+}
